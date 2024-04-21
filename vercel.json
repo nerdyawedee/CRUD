@@ -1,0 +1,10 @@
+{
+    "version":2,
+    "name":"Curd-App",
+    "builds":[
+        { "src" : "App.js" ,"use" : "@vercel/node"}
+    ],
+    "routes":[
+        { "src" : "/(.*)" ,"use" : "/App.js"}
+    ]
+}
